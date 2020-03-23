@@ -19,6 +19,24 @@
     <Filter Include="Pliki źródłowe\unions">
       <UniqueIdentifier>{04c23f35-5da8-4364-89f5-ecd804652c67}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\printf_scanf">
+      <UniqueIdentifier>{92c8ff6a-c1d2-4626-b460-ba10c5f132cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\preprocessor_directives">
+      <UniqueIdentifier>{5705a72a-45f9-4699-b67b-e407deda88f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\enums">
+      <UniqueIdentifier>{78255b32-0511-485e-9f97-c6736150b497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\malloc">
+      <UniqueIdentifier>{bd3d3377-028e-427b-bac3-ecacb18e0f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\symbolic_constants">
+      <UniqueIdentifier>{d364b636-c201-4376-9536-ffd22e9af45c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\pointers">
+      <UniqueIdentifier>{f47d00ca-4b79-4d84-a852-c6f877bb434a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -38,6 +56,69 @@
     </ClCompile>
     <ClCompile Include="nested_union.c">
       <Filter>Pliki źródłowe\unions</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof_strlen.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="printf.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="printf_length.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf_nothing.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="define_constant.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
+    <ClCompile Include="define_macro.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
+    <ClCompile Include="undef.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
+    <ClCompile Include="conditional_compilation.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
+    <ClCompile Include="if_elif_else.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
+    <ClCompile Include="enum.c">
+      <Filter>Pliki źródłowe\enums</Filter>
+    </ClCompile>
+    <ClCompile Include="define_macro_advance.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc.c">
+      <Filter>Pliki źródłowe\malloc</Filter>
+    </ClCompile>
+    <ClCompile Include="true_false_null.c">
+      <Filter>Pliki źródłowe\symbolic_constants</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers.c">
+      <Filter>Pliki źródłowe\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers_advanced.c">
+      <Filter>Pliki źródłowe\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_format.c">
+      <Filter>Pliki źródłowe\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="conditional_expression.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="void_expression.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="void_pointer.c">
+      <Filter>Pliki źródłowe\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="void_array_pointer.c">
+      <Filter>Pliki źródłowe\pointers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
