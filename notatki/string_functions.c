@@ -106,6 +106,7 @@ void main()
 	printf("strncpy1: %s\n", i);
 	printf("strncpy2: %s\n", j);
 
+	
 	/* ##
 	 * memcpy - kopiuje maksymalnie n bajtow ze src do dest,
 	 * uwaga na kopiowanie liczb - little indian
