@@ -37,6 +37,12 @@
     <Filter Include="Pliki źródłowe\pointers">
       <UniqueIdentifier>{f47d00ca-4b79-4d84-a852-c6f877bb434a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\generic">
+      <UniqueIdentifier>{eda9eb92-3bfc-4081-ac23-df1f0a61eb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\strings">
+      <UniqueIdentifier>{87053d9f-6cc6-4612-898a-95763369f07f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -119,6 +125,30 @@
     </ClCompile>
     <ClCompile Include="void_array_pointer.c">
       <Filter>Pliki źródłowe\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="chars_comparsion.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="define.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
+    <ClCompile Include="null_pointer.c">
+      <Filter>Pliki źródłowe\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="variables.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="generic.c">
+      <Filter>Pliki źródłowe\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="string_functions.c">
+      <Filter>Pliki źródłowe\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="sprintf.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="strtok.c">
+      <Filter>Pliki źródłowe\strings</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
