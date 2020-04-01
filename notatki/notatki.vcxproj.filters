@@ -43,6 +43,9 @@
     <Filter Include="Pliki źródłowe\strings">
       <UniqueIdentifier>{87053d9f-6cc6-4612-898a-95763369f07f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\register">
+      <UniqueIdentifier>{05f91b9c-dc16-4d35-9470-dbc120e9b701}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -149,6 +152,18 @@
     </ClCompile>
     <ClCompile Include="strtok.c">
       <Filter>Pliki źródłowe\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="fprintf.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="register.c">
+      <Filter>Pliki źródłowe\register</Filter>
+    </ClCompile>
+    <ClCompile Include="register_value.c">
+      <Filter>Pliki źródłowe\register</Filter>
+    </ClCompile>
+    <ClCompile Include="printf_n_parameter.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
