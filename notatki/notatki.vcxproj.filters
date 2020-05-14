@@ -49,6 +49,9 @@
     <Filter Include="Pliki źródłowe\temp">
       <UniqueIdentifier>{6fc5139e-84ce-4af3-9a3d-a91a6b3d3621}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\assert">
+      <UniqueIdentifier>{d2f8aa29-a6fd-4ed2-8b71-3c8e8b874d01}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -173,6 +176,12 @@
     </ClCompile>
     <ClCompile Include="tuple.c">
       <Filter>Pliki źródłowe\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="assert_simple.c">
+      <Filter>Pliki źródłowe\assert</Filter>
+    </ClCompile>
+    <ClCompile Include="predefined_macros.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
