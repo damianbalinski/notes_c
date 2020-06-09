@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <limits.h>
 
 void main()
 {
+	// basic types
 	printf("int          : %d\n", sizeof(char));
 	printf("signed char  : %d\n", sizeof(signed char));
 	printf("unsigned char: %d\n", sizeof(unsigned char));

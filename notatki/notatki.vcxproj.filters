@@ -52,6 +52,12 @@
     <Filter Include="Pliki źródłowe\assert">
       <UniqueIdentifier>{d2f8aa29-a6fd-4ed2-8b71-3c8e8b874d01}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\overflow">
+      <UniqueIdentifier>{32375450-4fee-48bc-8a9a-93fec7a31af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\data_types">
+      <UniqueIdentifier>{bacbe629-107c-4475-82e8-3839083ae28a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -144,9 +150,6 @@
     <ClCompile Include="null_pointer.c">
       <Filter>Pliki źródłowe\pointers</Filter>
     </ClCompile>
-    <ClCompile Include="variables.c">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="generic.c">
       <Filter>Pliki źródłowe\generic</Filter>
     </ClCompile>
@@ -182,6 +185,42 @@
     </ClCompile>
     <ClCompile Include="predefined_macros.c">
       <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
+    <ClCompile Include="char_overflow.c">
+      <Filter>Pliki źródłowe\overflow</Filter>
+    </ClCompile>
+    <ClCompile Include="types_size.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="floatingpoints_specifiers.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="integers_specifiers.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="boolean.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="complex_gcc.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="complex_crt.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="exact_width_integers.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="minimal_width_integers.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="fastest_minimum_width_integers.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="greatest_width_integers.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_integers.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
