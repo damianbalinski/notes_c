@@ -58,6 +58,9 @@
     <Filter Include="Pliki źródłowe\data_types">
       <UniqueIdentifier>{bacbe629-107c-4475-82e8-3839083ae28a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\operators">
+      <UniqueIdentifier>{838d9f94-36a6-4a20-aac5-efd3548e64fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -79,9 +82,6 @@
       <Filter>Pliki źródłowe\unions</Filter>
     </ClCompile>
     <ClCompile Include="scanf.c">
-      <Filter>Pliki źródłowe\printf_scanf</Filter>
-    </ClCompile>
-    <ClCompile Include="sizeof_strlen.c">
       <Filter>Pliki źródłowe\printf_scanf</Filter>
     </ClCompile>
     <ClCompile Include="printf.c">
@@ -192,12 +192,6 @@
     <ClCompile Include="types_size.c">
       <Filter>Pliki źródłowe\data_types</Filter>
     </ClCompile>
-    <ClCompile Include="floatingpoints_specifiers.c">
-      <Filter>Pliki źródłowe\data_types</Filter>
-    </ClCompile>
-    <ClCompile Include="integers_specifiers.c">
-      <Filter>Pliki źródłowe\data_types</Filter>
-    </ClCompile>
     <ClCompile Include="boolean.c">
       <Filter>Pliki źródłowe\data_types</Filter>
     </ClCompile>
@@ -207,20 +201,44 @@
     <ClCompile Include="complex_crt.c">
       <Filter>Pliki źródłowe\data_types</Filter>
     </ClCompile>
-    <ClCompile Include="exact_width_integers.c">
+    <ClCompile Include="float_limits.c">
       <Filter>Pliki źródłowe\data_types</Filter>
     </ClCompile>
-    <ClCompile Include="minimal_width_integers.c">
+    <ClCompile Include="float_specifiers.c">
       <Filter>Pliki źródłowe\data_types</Filter>
     </ClCompile>
-    <ClCompile Include="fastest_minimum_width_integers.c">
+    <ClCompile Include="integer_exact_width.c">
       <Filter>Pliki źródłowe\data_types</Filter>
     </ClCompile>
-    <ClCompile Include="greatest_width_integers.c">
+    <ClCompile Include="integer_fastest_minimum_width.c">
       <Filter>Pliki źródłowe\data_types</Filter>
     </ClCompile>
-    <ClCompile Include="pointer_integers.c">
+    <ClCompile Include="integer_greatest_width.c">
       <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_specifiers.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_minimal_width.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_pointer.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="size.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof_strlen.c">
+      <Filter>Pliki źródłowe\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf_partial.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="modulo.c">
+      <Filter>Pliki źródłowe\operators</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

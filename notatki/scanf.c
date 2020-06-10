@@ -12,13 +12,19 @@ void main()
 	char* napis2 = napis1;
 
 	int n;
-	n = scanf("%d", &liczba);
-	printf("n: %d\n", n);
+	//n = scanf("%d", &liczba);
+	//printf("n: %d\n", n);
+
 	//scanf("%d %s", &liczba, napis1);
 	//printf("l: %d\tn: %s\n", liczba, napis1);
 
 	//scanf("%d%f", &liczba, &numer1);
 	//printf("l: %d\tn: %f\n", liczba, numer1);
+
+	// have to type 123___123.0
+	// or 123___    123.0
+	scanf("%d___%f", &liczba, &numer1); 
+	printf("%d  %f\n", liczba, numer1);
 
 	printf("liczba: ");
 	scanf("%d", &liczba);

@@ -14,6 +14,7 @@ void main()
 	printf("float        : %d\n", sizeof(float));
 	printf("double       : %d\n", sizeof(double));
 	printf("long double  : %d\n", sizeof(long double));
+	//printf("void         : %d\n", sizeof(void));     // ERROR
 
 	//TODO __int64
 	__int64 aaa = 10;

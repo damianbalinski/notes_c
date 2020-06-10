@@ -1,8 +1,6 @@
-//#include <cstdint>
 #include <stdio.h>
 #include <string.h>
-#define MAX 100
-#pragma warning(disable : 4996)
+#include <stdint.h>
 
 void main()
 {
@@ -11,16 +9,16 @@ void main()
 	short c = 10;
 	long d = 100;
 	long long e = 10000;
-	//intmax_t f = 1;
+	intmax_t f = 1;
 	size_t g = 12;
 	ptrdiff_t h = 12;
 	
 	printf("%d\n", a);
-	printf("%hhd\n", a);
-	printf("%hd\n", a);
-	printf("%ld\n", a);
-	printf("%lld\n", a);
-	printf("%jd\n", a);
-	printf("%zd\n", a);
-	printf("%td\n", a);
+	printf("%hhd\n", b);
+	printf("%hd\n", c);
+	printf("%ld\n", d);
+	printf("%lld\n", e);
+	printf("%jd\n", f);		// intmax_t, uintmax_t
+	printf("%zd\n", g);		// size_t
+	printf("%td\n", h);		// ptrdiff_t
 }
