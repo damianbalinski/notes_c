@@ -177,9 +177,6 @@
     <ClCompile Include="memory_info.c">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="tuple.c">
-      <Filter>Pliki źródłowe\temp</Filter>
-    </ClCompile>
     <ClCompile Include="assert_simple.c">
       <Filter>Pliki źródłowe\assert</Filter>
     </ClCompile>
@@ -239,6 +236,15 @@
     </ClCompile>
     <ClCompile Include="modulo.c">
       <Filter>Pliki źródłowe\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="comma_operator.c">
+      <Filter>Pliki źródłowe\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="putchar_getchar.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="chars_functions.c">
+      <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
