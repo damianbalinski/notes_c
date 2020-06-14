@@ -83,8 +83,11 @@ void main()
 
 	// ISBLANK
 	// znak pusty (spacja, tabulator)
-	printf("%d\n", isblank(' '));
-	printf("%d\n", isblank('\t'));
-	printf("%d\n", isblank('\n'));
-	printf("%d\n", isblank('\v'));
+	//printf("%d\n", isblank(' '));
+	//printf("%d\n", isblank('\t'));
+	//printf("%d\n", isblank('\n'));
+	//printf("%d\n", isblank('\v'));
+
+	char a = L'A';
+	putchar(a);
 }

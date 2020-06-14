@@ -46,9 +46,6 @@
     <Filter Include="Pliki źródłowe\register">
       <UniqueIdentifier>{05f91b9c-dc16-4d35-9470-dbc120e9b701}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Pliki źródłowe\temp">
-      <UniqueIdentifier>{6fc5139e-84ce-4af3-9a3d-a91a6b3d3621}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Pliki źródłowe\assert">
       <UniqueIdentifier>{d2f8aa29-a6fd-4ed2-8b71-3c8e8b874d01}</UniqueIdentifier>
     </Filter>
@@ -60,6 +57,9 @@
     </Filter>
     <Filter Include="Pliki źródłowe\operators">
       <UniqueIdentifier>{838d9f94-36a6-4a20-aac5-efd3548e64fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\switch">
+      <UniqueIdentifier>{680dc84d-8c70-40e2-ab81-617c98a21604}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -128,9 +128,6 @@
     </ClCompile>
     <ClCompile Include="binary_format.c">
       <Filter>Pliki źródłowe\pointers</Filter>
-    </ClCompile>
-    <ClCompile Include="conditional_expression.c">
-      <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="void_expression.c">
       <Filter>Pliki źródłowe</Filter>
@@ -245,6 +242,15 @@
     </ClCompile>
     <ClCompile Include="chars_functions.c">
       <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="and_or_not.c">
+      <Filter>Pliki źródłowe\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="switch.c">
+      <Filter>Pliki źródłowe\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="conditional_operator.c">
+      <Filter>Pliki źródłowe\operators</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
