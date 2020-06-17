@@ -61,6 +61,15 @@
     <Filter Include="Pliki źródłowe\switch">
       <UniqueIdentifier>{680dc84d-8c70-40e2-ab81-617c98a21604}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\input_output">
+      <UniqueIdentifier>{6953f058-c709-4e40-bc55-cba6862f6f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\functions">
+      <UniqueIdentifier>{4e5f1ad0-b99d-4f0f-8430-7805a0aec088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\array">
+      <UniqueIdentifier>{e18e9dda-cfcf-409c-81ed-96327eb212b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -237,9 +246,6 @@
     <ClCompile Include="comma_operator.c">
       <Filter>Pliki źródłowe\operators</Filter>
     </ClCompile>
-    <ClCompile Include="putchar_getchar.c">
-      <Filter>Pliki źródłowe\printf_scanf</Filter>
-    </ClCompile>
     <ClCompile Include="chars_functions.c">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
@@ -251,6 +257,33 @@
     </ClCompile>
     <ClCompile Include="conditional_operator.c">
       <Filter>Pliki źródłowe\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="goto.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="getch_getche.c">
+      <Filter>Pliki źródłowe\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="putchar_getchar.c">
+      <Filter>Pliki źródłowe\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="function_old_style.c">
+      <Filter>Pliki źródłowe\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="function_prototype.c">
+      <Filter>Pliki źródłowe\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="function_no_prototype.c">
+      <Filter>Pliki źródłowe\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="temp.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="array_initialization.c">
+      <Filter>Pliki źródłowe\array</Filter>
+    </ClCompile>
+    <ClCompile Include="array_designated_initialization.c">
+      <Filter>Pliki źródłowe\array</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
