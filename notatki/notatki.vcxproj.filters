@@ -70,6 +70,9 @@
     <Filter Include="Pliki źródłowe\array">
       <UniqueIdentifier>{e18e9dda-cfcf-409c-81ed-96327eb212b2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\constant">
+      <UniqueIdentifier>{0b6ea705-1ae7-4b23-92f8-23b1abd25cf6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -283,6 +286,21 @@
       <Filter>Pliki źródłowe\array</Filter>
     </ClCompile>
     <ClCompile Include="array_designated_initialization.c">
+      <Filter>Pliki źródłowe\array</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers_substraction.c">
+      <Filter>Pliki źródłowe\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers_comparsion.c">
+      <Filter>Pliki źródłowe\pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="constant_pointer.c">
+      <Filter>Pliki źródłowe\constant</Filter>
+    </ClCompile>
+    <ClCompile Include="variable_length_array.c">
+      <Filter>Pliki źródłowe\array</Filter>
+    </ClCompile>
+    <ClCompile Include="compound_literals.c">
       <Filter>Pliki źródłowe\array</Filter>
     </ClCompile>
   </ItemGroup>

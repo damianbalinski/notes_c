@@ -1,16 +1,15 @@
 #include <stdio.h>
-
-int myprint(char* str, ...);
-
-int myprint(char* str, int a, int b)
-{
-	printf("(%d,%d)\n", a, b);
-	return 0;
-}
+#include <stdio.h>
 
 void main()
 {
-	myprint("qwe", 1);
-	myprint("qwe", 1, 2);
-	myprint("qwe", 1, 2, 3);
+	int tab1[10];
+	int* tab2 = (int*)malloc(10 * sizeof(int));
+	int* tab3 = 10;
+
+	//tab1++;	// ERROR
+	tab2++;
+	tab3++;		// ERROR
+
+	printf("%p\n", tab3);
 }
