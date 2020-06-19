@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// GCC ONLY
+// int print_table(int n, int tab[n]);
+
 void main()
 {
 	int n = 10;

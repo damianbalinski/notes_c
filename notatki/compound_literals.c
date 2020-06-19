@@ -40,6 +40,9 @@ void main()
 	// int 2d array
 	int (*b1)[3] = (int[][3]) { {1, 2, 3}, { 4, 5, 6 }};
 
+	float* b3 = (float[]){ 1.1, 2.2, 3.3 };
+	float(*b4)[3] = (float[][3]){ {1.1, 2.2, 3.3}, {4.4, 5.5, 6.6} };
+
 	// structure
 	mystruct d1 = (mystruct) {12, "abc"};
 	mystruct d2 = (mystruct) {.val=12, .str="abc"};

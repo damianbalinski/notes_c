@@ -18,4 +18,6 @@ D:
 	printf("D");
 	goto A;
 
+E:
+	;
 }

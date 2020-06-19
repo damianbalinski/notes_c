@@ -303,5 +303,8 @@
     <ClCompile Include="compound_literals.c">
       <Filter>Pliki źródłowe\array</Filter>
     </ClCompile>
+    <ClCompile Include="char_literals.c">
+      <Filter>Pliki źródłowe\strings</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
