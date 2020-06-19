@@ -306,5 +306,11 @@
     <ClCompile Include="char_literals.c">
       <Filter>Pliki źródłowe\strings</Filter>
     </ClCompile>
+    <ClCompile Include="gets_fgets_gets_s.c">
+      <Filter>Pliki źródłowe\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf_functions.c">
+      <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
