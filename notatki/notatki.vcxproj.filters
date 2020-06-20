@@ -37,9 +37,6 @@
     <Filter Include="Pliki źródłowe\pointers">
       <UniqueIdentifier>{f47d00ca-4b79-4d84-a852-c6f877bb434a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Pliki źródłowe\generic">
-      <UniqueIdentifier>{eda9eb92-3bfc-4081-ac23-df1f0a61eb7c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Pliki źródłowe\strings">
       <UniqueIdentifier>{87053d9f-6cc6-4612-898a-95763369f07f}</UniqueIdentifier>
     </Filter>
@@ -72,6 +69,12 @@
     </Filter>
     <Filter Include="Pliki źródłowe\constant">
       <UniqueIdentifier>{0b6ea705-1ae7-4b23-92f8-23b1abd25cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\generic">
+      <UniqueIdentifier>{eda9eb92-3bfc-4081-ac23-df1f0a61eb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\conversion">
+      <UniqueIdentifier>{66dbde3e-ada1-430e-b06c-74009a3508c0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -234,9 +237,6 @@
     <ClCompile Include="size.c">
       <Filter>Pliki źródłowe\data_types</Filter>
     </ClCompile>
-    <ClCompile Include="sizeof.c">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="sizeof_strlen.c">
       <Filter>Pliki źródłowe\strings</Filter>
     </ClCompile>
@@ -311,6 +311,24 @@
     </ClCompile>
     <ClCompile Include="scanf_functions.c">
       <Filter>Pliki źródłowe\printf_scanf</Filter>
+    </ClCompile>
+    <ClCompile Include="main_function.c">
+      <Filter>Pliki źródłowe\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof.c">
+      <Filter>Pliki źródłowe\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="ato_functions.c">
+      <Filter>Pliki źródłowe\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="int_non.c">
+      <Filter>Pliki źródłowe\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="strto_functions.c">
+      <Filter>Pliki źródłowe\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="toa_functions.c">
+      <Filter>Pliki źródłowe\conversion</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

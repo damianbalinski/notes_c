@@ -100,11 +100,14 @@ void main()
 	/* ##
 	 * strncpy - kopiuje maksymalnie n znakow, ze zrodla b do a
 	 */
-	char i[] = "xxxx";
+	char i[] = "xxxxxx";
 	char j[] = "zzz";
-	strncpy(i, j, 2);
+	strncpy(i, j, 3);
 	printf("strncpy1: %s\n", i);
 	printf("strncpy2: %s\n", j);
+	for (int count = 0; count < 6; count++)
+		printf("%c ", i[count]);
+	printf("\n");
 
 	
 	/* ##
