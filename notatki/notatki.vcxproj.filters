@@ -76,6 +76,9 @@
     <Filter Include="Pliki źródłowe\conversion">
       <UniqueIdentifier>{66dbde3e-ada1-430e-b06c-74009a3508c0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\storage_classes">
+      <UniqueIdentifier>{2df4f341-1799-464a-b2e0-f2dd64e23ad9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -329,6 +332,12 @@
     </ClCompile>
     <ClCompile Include="toa_functions.c">
       <Filter>Pliki źródłowe\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="storage_classes.c">
+      <Filter>Pliki źródłowe\storage_classes</Filter>
+    </ClCompile>
+    <ClCompile Include="scope.c">
+      <Filter>Pliki źródłowe\storage_classes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
