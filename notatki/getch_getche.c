@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <conio.h>
 
+// MS DOS ONLY
+
 void main()
 {
 	/*

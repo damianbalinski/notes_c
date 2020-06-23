@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 // AUTOMATYCZNA
-// auto a = 10;				// ERROR - zmienna automatyczna nie moze miec zasiegu plikowego
-// auto void faa2();		// ERROR - funkcja nie moze byc automatyczna
-// void faa(auto int aa);	// GCC ERROR
+// auto a = 10;					// ERROR - zmienna automatyczna nie moze miec zasiegu plikowego
+// auto void faa2();			// ERROR - funkcja nie moze byc automatyczna
+// void faa(auto int aa);		// GCC ERROR
 
 // REGISTER
 //register int c = 10;			// ERROR - zmienna automatyczna nie moze miec zasiegu plikowego

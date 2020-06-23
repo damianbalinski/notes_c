@@ -339,5 +339,14 @@
     <ClCompile Include="scope.c">
       <Filter>Pliki źródłowe\storage_classes</Filter>
     </ClCompile>
+    <ClCompile Include="type_qualifiers.c">
+      <Filter>Pliki źródłowe\storage_classes</Filter>
+    </ClCompile>
+    <ClCompile Include="storage_classes_new_declaration.c">
+      <Filter>Pliki źródłowe\storage_classes</Filter>
+    </ClCompile>
+    <ClCompile Include="putc_fputc_getc_fgetc.c">
+      <Filter>Pliki źródłowe\input_output</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
