@@ -79,6 +79,9 @@
     <Filter Include="Pliki źródłowe\storage_classes">
       <UniqueIdentifier>{2df4f341-1799-464a-b2e0-f2dd64e23ad9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\files">
+      <UniqueIdentifier>{fd28af48-c817-4c57-a090-c720d8665b94}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -282,9 +285,6 @@
     <ClCompile Include="function_no_prototype.c">
       <Filter>Pliki źródłowe\functions</Filter>
     </ClCompile>
-    <ClCompile Include="temp.c">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="array_initialization.c">
       <Filter>Pliki źródłowe\array</Filter>
     </ClCompile>
@@ -348,5 +348,22 @@
     <ClCompile Include="putc_fputc_getc_fgetc.c">
       <Filter>Pliki źródłowe\input_output</Filter>
     </ClCompile>
+    <ClCompile Include="file_access_modes.c">
+      <Filter>Pliki źródłowe\storage_classes</Filter>
+    </ClCompile>
+    <ClCompile Include="fseek_ftell.c">
+      <Filter>Pliki źródłowe\files</Filter>
+    </ClCompile>
+    <ClCompile Include="temp.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt">
+      <Filter>Pliki źródłowe\storage_classes</Filter>
+    </Text>
+    <Text Include="test2.txt">
+      <Filter>Pliki źródłowe\files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
