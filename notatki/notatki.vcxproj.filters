@@ -357,6 +357,27 @@
     <ClCompile Include="temp.c">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="structure_initialization.c">
+      <Filter>Pliki źródłowe\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="anonymous_structure.c">
+      <Filter>Pliki źródłowe\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="union_initialization.c">
+      <Filter>Pliki źródłowe\unions</Filter>
+    </ClCompile>
+    <ClCompile Include="structure_declaration.c">
+      <Filter>Pliki źródłowe\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="union_declaration.c">
+      <Filter>Pliki źródłowe\unions</Filter>
+    </ClCompile>
+    <ClCompile Include="left_right_shift.c">
+      <Filter>Pliki źródłowe\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="bit_field.c">
+      <Filter>Pliki źródłowe\structures</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
