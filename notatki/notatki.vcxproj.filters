@@ -390,6 +390,12 @@
     <ClCompile Include="preprocessor_operators2.c">
       <Filter>Pliki źródłowe\preprocessor_directives</Filter>
     </ClCompile>
+    <ClCompile Include="variadic_macro.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
+    <ClCompile Include="alligned_malloc.c">
+      <Filter>Pliki źródłowe\malloc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
