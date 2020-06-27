@@ -378,6 +378,12 @@
     <ClCompile Include="bit_field.c">
       <Filter>Pliki źródłowe\structures</Filter>
     </ClCompile>
+    <ClCompile Include="alignof.c">
+      <Filter>Pliki źródłowe\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="alignas.c">
+      <Filter>Pliki źródłowe\storage_classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
