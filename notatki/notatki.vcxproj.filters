@@ -384,6 +384,12 @@
     <ClCompile Include="alignas.c">
       <Filter>Pliki źródłowe\storage_classes</Filter>
     </ClCompile>
+    <ClCompile Include="preprocessor_operators.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
+    <ClCompile Include="preprocessor_operators2.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">

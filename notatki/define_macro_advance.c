@@ -9,8 +9,8 @@
 	SETMIN(); \
 	SETMAX();
 
-#define NAZWA(x) #x
-#define WARTOSC(x)  NAZWA(x)
+#define NAZWA(X) #X
+#define WARTOSC(X) X
 
 #define CONCAT(X,Y) X Y
 #define CONCAT2(X,Y) X ## Y
@@ -33,8 +33,10 @@ void main()
 	printf("nazwa zmiennej  : %s\n", NAZWA(jakas_zmienna));
 	printf("wartosc zmiennej: %s\n", WARTOSC(jakas_zmienna));
 
+	int jedendwa = 1234;
 	printf("concat : %s\n", CONCAT("jeden", "dwa"));
 	printf("concat2: %s\n", CONCAT2("jeden", "dwa"));
+	printf("jedendwa: %d\n", CONCAT2(jeden, dwa));
 
 	int x = 10;
 	printf("NAZWA(x) = %s\n", NAZWA(x));
