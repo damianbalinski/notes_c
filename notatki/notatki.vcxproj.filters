@@ -396,6 +396,9 @@
     <ClCompile Include="alligned_malloc.c">
       <Filter>Pliki źródłowe\malloc</Filter>
     </ClCompile>
+    <ClCompile Include="pragma.c">
+      <Filter>Pliki źródłowe\preprocessor_directives</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
