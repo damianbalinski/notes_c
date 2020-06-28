@@ -414,6 +414,12 @@
     <ClCompile Include="atexit.c">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="static_assert.c">
+      <Filter>Pliki źródłowe\assert</Filter>
+    </ClCompile>
+    <ClCompile Include="assert.c">
+      <Filter>Pliki źródłowe\assert</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
