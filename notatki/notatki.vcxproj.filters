@@ -408,6 +408,12 @@
     <ClCompile Include="generic_function.c">
       <Filter>Pliki źródłowe\generic</Filter>
     </ClCompile>
+    <ClCompile Include="calling_function_macro.c">
+      <Filter>Pliki źródłowe\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="atexit.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
