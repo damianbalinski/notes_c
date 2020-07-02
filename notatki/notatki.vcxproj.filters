@@ -420,6 +420,9 @@
     <ClCompile Include="assert.c">
       <Filter>Pliki źródłowe\assert</Filter>
     </ClCompile>
+    <ClCompile Include="thread_local.c">
+      <Filter>Pliki źródłowe\storage_classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
