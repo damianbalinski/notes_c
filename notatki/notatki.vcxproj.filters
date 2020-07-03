@@ -82,6 +82,15 @@
     <Filter Include="Pliki źródłowe\files">
       <UniqueIdentifier>{fd28af48-c817-4c57-a090-c720d8665b94}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\float_environment">
+      <UniqueIdentifier>{149a628a-2fdf-4441-9fb4-c86fc099e7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\signals">
+      <UniqueIdentifier>{75269eb2-903b-45fe-b3f2-db3127b1dede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\align">
+      <UniqueIdentifier>{fc3d4005-9261-4629-9a29-cc4169b0bfcf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -422,6 +431,30 @@
     </ClCompile>
     <ClCompile Include="thread_local.c">
       <Filter>Pliki źródłowe\storage_classes</Filter>
+    </ClCompile>
+    <ClCompile Include="errno.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="round_modes.c">
+      <Filter>Pliki źródłowe\float_environment</Filter>
+    </ClCompile>
+    <ClCompile Include="float_macros.c">
+      <Filter>Pliki źródłowe\float_environment</Filter>
+    </ClCompile>
+    <ClCompile Include="intmax.c">
+      <Filter>Pliki źródłowe\data_types</Filter>
+    </ClCompile>
+    <ClCompile Include="locale.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="math.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="signals.c">
+      <Filter>Pliki źródłowe\signals</Filter>
+    </ClCompile>
+    <ClCompile Include="offsetof.c">
+      <Filter>Pliki źródłowe\align</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
