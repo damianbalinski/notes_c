@@ -1,15 +1,14 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <time.h>
 
 void main()
 {
-	int tab1[10];
-	int* tab2 = (int*)malloc(10 * sizeof(int));
-	int* tab3 = 10;
+	CLOCKS_PER_SEC;
+	TIME_UTC;
+	time_t;
+	clock_t;
+	struct timespec;
+	struct tm;
 
-	//tab1++;	// ERROR
-	tab2++;
-	tab3++;		// ERROR
-
-	printf("%p\n", tab3);
+	printf("%d\n", TIME_UTC);
 }

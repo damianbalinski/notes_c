@@ -91,6 +91,9 @@
     <Filter Include="Pliki źródłowe\align">
       <UniqueIdentifier>{fc3d4005-9261-4629-9a29-cc4169b0bfcf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\widechar">
+      <UniqueIdentifier>{4e4d7a93-877a-4c72-a4a0-aa429fb4f63a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -461,6 +464,12 @@
     </ClCompile>
     <ClCompile Include="system.c">
       <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="widechar.c">
+      <Filter>Pliki źródłowe\widechar</Filter>
+    </ClCompile>
+    <ClCompile Include="widechar2.c">
+      <Filter>Pliki źródłowe\widechar</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
