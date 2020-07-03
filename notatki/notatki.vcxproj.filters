@@ -456,6 +456,12 @@
     <ClCompile Include="offsetof.c">
       <Filter>Pliki źródłowe\align</Filter>
     </ClCompile>
+    <ClCompile Include="randmax_exit_success_failure.c">
+      <Filter>Pliki źródłowe\symbolic_constants</Filter>
+    </ClCompile>
+    <ClCompile Include="system.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
