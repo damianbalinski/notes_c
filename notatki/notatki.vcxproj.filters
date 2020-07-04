@@ -94,6 +94,9 @@
     <Filter Include="Pliki źródłowe\widechar">
       <UniqueIdentifier>{4e4d7a93-877a-4c72-a4a0-aa429fb4f63a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\digraphs_trigraphs">
+      <UniqueIdentifier>{9c0de848-94e3-442f-8aa3-00ada08eda47}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -470,6 +473,12 @@
     </ClCompile>
     <ClCompile Include="widechar2.c">
       <Filter>Pliki źródłowe\widechar</Filter>
+    </ClCompile>
+    <ClCompile Include="trigraphs.c">
+      <Filter>Pliki źródłowe\digraphs_trigraphs</Filter>
+    </ClCompile>
+    <ClCompile Include="digraphs.c">
+      <Filter>Pliki źródłowe\digraphs_trigraphs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
