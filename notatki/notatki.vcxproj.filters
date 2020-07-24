@@ -480,6 +480,9 @@
     <ClCompile Include="digraphs.c">
       <Filter>Pliki źródłowe\digraphs_trigraphs</Filter>
     </ClCompile>
+    <ClCompile Include="structures_function.c">
+      <Filter>Pliki źródłowe\structures</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">

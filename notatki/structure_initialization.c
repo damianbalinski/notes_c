@@ -33,17 +33,25 @@ int main()
 	// przypisanie wartosci
 	struct S e = d;
 
+	// GCC ONLY
+	struct S f = {
+		val : 124,
+		"aaa"
+	};
+
 	printf("%d %s\n", a.val, a.str);
 	printf("%d %s\n", b.val, b.str);
 	printf("%d %s\n", c.val, c.str);
 	printf("%d %s\n", d.val, d.str);
 	printf("%d %s\n", e.val, e.str);
+	printf("%d %s\n", f.val, f.str);
 
 	printf("%p\n", &a);
 	printf("%p\n", &b);
 	printf("%p\n", &c);
 	printf("%p\n", &d);
 	printf("%p\n", &e);
+	printf("%p\n", &f);
 
 	return 0;
 }

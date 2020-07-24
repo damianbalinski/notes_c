@@ -28,4 +28,6 @@ int main(void)
     printf("%ls\n", b4);
     printf("%S\n", b4);
 
+    wchar_t test = L J;
+
 }
