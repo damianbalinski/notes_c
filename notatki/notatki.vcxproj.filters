@@ -483,6 +483,9 @@
     <ClCompile Include="structures_function.c">
       <Filter>Pliki źródłowe\structures</Filter>
     </ClCompile>
+    <ClCompile Include="int_initialization_by_char_iteral.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
