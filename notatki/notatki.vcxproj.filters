@@ -486,6 +486,9 @@
     <ClCompile Include="int_initialization_by_char_iteral.c">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="void_function_advance.c">
+      <Filter>Pliki źródłowe\functions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
