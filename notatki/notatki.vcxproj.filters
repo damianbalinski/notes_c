@@ -97,6 +97,9 @@
     <Filter Include="Pliki źródłowe\digraphs_trigraphs">
       <UniqueIdentifier>{9c0de848-94e3-442f-8aa3-00ada08eda47}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\curiosities">
+      <UniqueIdentifier>{a20df98d-b4d0-4d25-85ab-b3e608399820}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="structure.c">
@@ -488,6 +491,12 @@
     </ClCompile>
     <ClCompile Include="void_function_advance.c">
       <Filter>Pliki źródłowe\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="recursive_main.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="multiple_strcpy_in_one_line.c">
+      <Filter>Pliki źródłowe\curiosities</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
