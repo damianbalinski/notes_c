@@ -498,6 +498,15 @@
     <ClCompile Include="multiple_strcpy_in_one_line.c">
       <Filter>Pliki źródłowe\curiosities</Filter>
     </ClCompile>
+    <ClCompile Include="constant_value_pointer.c">
+      <Filter>Pliki źródłowe\constant</Filter>
+    </ClCompile>
+    <ClCompile Include="constants_value_pointer.c">
+      <Filter>Pliki źródłowe\constant</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_to_constants.c">
+      <Filter>Pliki źródłowe\constant</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
