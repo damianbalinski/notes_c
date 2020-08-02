@@ -53,3 +53,4 @@ void main()
 	//*p2 = 200;
 	//print_table(tab2, n);
 }
+
