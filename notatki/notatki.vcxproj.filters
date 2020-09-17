@@ -507,6 +507,12 @@
     <ClCompile Include="pointer_to_constants.c">
       <Filter>Pliki źródłowe\constant</Filter>
     </ClCompile>
+    <ClCompile Include="temp_file.c">
+      <Filter>Pliki źródłowe\files</Filter>
+    </ClCompile>
+    <ClCompile Include="tmpmax_ltmpnam.c">
+      <Filter>Pliki źródłowe\symbolic_constants</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
