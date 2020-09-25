@@ -513,6 +513,9 @@
     <ClCompile Include="tmpmax_ltmpnam.c">
       <Filter>Pliki źródłowe\symbolic_constants</Filter>
     </ClCompile>
+    <ClCompile Include="string_concatenation.c">
+      <Filter>Pliki źródłowe\strings</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">
